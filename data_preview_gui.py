@@ -12,7 +12,7 @@ BASE_DIR = r"C:\\D_MV\\Data_D"
 class DataPreviewGUI:
     def __init__(self, window):
         self.window = window
-        self.window.title("Data Preview GUI")
+        self.window.title("Data Preview GUI - Updated")
         self.window.geometry("1200x800")
         
         # Initialize variables
@@ -51,6 +51,7 @@ class DataPreviewGUI:
         
         # Plot area
         self.create_plot_area()
+        # comments
         
     def create_file_selection(self):
         # Get list of files
